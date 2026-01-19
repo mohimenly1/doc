@@ -79,7 +79,7 @@ docker compose logs -f sqlserver
 - **Password:** `StrongPass123_Strong`
 - **Connection String:** `Server=localhost,1433;Database=InquirySystemDb;User Id=sa;Password=StrongPass123_Strong;TrustServerCertificate=True;`
 
-> **ملاحظة:** يمكنك تغيير كلمة المرور في `docker/docker-compose.yml` إذا أردت.
+> **ملاحظة:** يمكنك تغيير كلمة المرور في `docker/docker-compose.yml`.
 
 ### الخطوة 3: تطبيق Migrations (إنشاء قاعدة البيانات)
 
